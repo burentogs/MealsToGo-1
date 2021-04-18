@@ -11,8 +11,7 @@ const addGoogleImage = (restaurant) => {
     return restaurant;
   }
   restaurant.photos = [
-    `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${ref}&key=${
-      functions.config().google.key
+    `https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${ref}&key=${functions.config().google.key
     }`,
   ];
   return restaurant;
@@ -34,7 +33,7 @@ module.exports.placesRequest = (request, response, client) => {
         location: location,
         radius: 1500,
         type: "restaurant",
-        key: functions.config().google.key,
+        key: "AIzaSyAbK69kZfNRlCiiuqhEPHdjaW6czSQPvSg",
       },
       timeout: 1000,
     })

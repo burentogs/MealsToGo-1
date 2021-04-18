@@ -15,12 +15,12 @@ import { Navigation } from "./src/infrastructure/navigation";
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 const firebaseConfig = {
-  apiKey: "<fill in your own>",
-  authDomain: "<fill in your own>",
-  projectId: "<fill in your own>",
-  storageBucket: "<fill in your own>",
-  messagingSenderId: "<fill in your own>",
-  appId: "<fill in your own>",
+  apiKey: "AIzaSyAbK69kZfNRlCiiuqhEPHdjaW6czSQPvSg",
+  authDomain: "onfood-onfood.firebaseapp.com",
+  projectId: "onfood-onfood",
+  storageBucket: "onfood-onfood.appspot.com",
+  messagingSenderId: "557664942174",
+  appId: "1:557664942174:web:2caf8122d502b18e0d1ccf",
 };
 
 if (!firebase.apps.length) {
