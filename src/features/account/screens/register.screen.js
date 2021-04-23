@@ -23,7 +23,7 @@ export const RegisterScreen = ({ navigation }) => {
   return (
     <AccountBackground>
       <AccountCover />
-      <Title>Meals To Go</Title>
+      <Title>OnFood</Title>
       <AccountContainer>
         <AuthInput
           label="E-mail"
@@ -35,7 +35,7 @@ export const RegisterScreen = ({ navigation }) => {
         />
         <Spacer size="large">
           <AuthInput
-            label="Password"
+            label="Нууц үг"
             value={password}
             textContentType="password"
             secureTextEntry
@@ -45,7 +45,7 @@ export const RegisterScreen = ({ navigation }) => {
         </Spacer>
         <Spacer size="large">
           <AuthInput
-            label="Repeat Password"
+            label="Нууц үг давтах"
             value={repeatedPassword}
             textContentType="password"
             secureTextEntry
@@ -65,7 +65,7 @@ export const RegisterScreen = ({ navigation }) => {
               mode="contained"
               onPress={() => onRegister(email, password, repeatedPassword)}
             >
-              Register
+              Бүртгүүлэх
             </AuthButton>
           ) : (
             <ActivityIndicator animating={true} color={Colors.blue300} />
@@ -74,7 +74,7 @@ export const RegisterScreen = ({ navigation }) => {
       </AccountContainer>
       <Spacer size="large">
         <AuthButton mode="contained" onPress={() => navigation.goBack()}>
-          Back
+          Буцах
         </AuthButton>
       </Spacer>
     </AccountBackground>

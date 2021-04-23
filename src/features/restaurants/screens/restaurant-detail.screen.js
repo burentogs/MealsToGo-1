@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { ScrollView } from "react-native";
+import { ScrollView, TouchableOpacity, TextInput, View, Text, StyleSheet } from "react-native";
 import { List, Divider } from "react-native-paper";
 
 import { Spacer } from "../../../components/spacer/spacer.component";
@@ -18,64 +18,120 @@ export const RestaurantDetailScreen = ({ navigation, route }) => {
   const { restaurant } = route.params;
   const { addToCart } = useContext(CartContext);
 
+  //-------//------//
+
+
   return (
     <SafeArea>
       <RestaurantInfoCard restaurant={restaurant} />
       <ScrollView>
         <List.Accordion
-          title="Breakfast"
+          title="Өглөөний хоол "
           left={(props) => <List.Icon {...props} icon="bread-slice" />}
           expanded={breakfastExpanded}
           onPress={() => setBreakfastExpanded(!breakfastExpanded)}
         >
-          <List.Item title="Eggs Benedict" />
+
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Шарсан өндөгтэй талх" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Classic Breakfast" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Жигнэсэн өндөг" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
         </List.Accordion>
         <Divider />
         <List.Accordion
-          title="Lunch"
+          title="Үдийн хоол"
           left={(props) => <List.Icon {...props} icon="hamburger" />}
           expanded={lunchExpanded}
           onPress={() => setLunchExpanded(!lunchExpanded)}
         >
-          <List.Item title="Burger w/ Fries" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Бургер" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Steak Sandwich" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Сэндвич" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Mushroom Soup" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Бууз" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
         </List.Accordion>
         <Divider />
         <List.Accordion
-          title="Dinner"
+          title="Оройн хоол"
           left={(props) => <List.Icon {...props} icon="food-variant" />}
           expanded={dinnerExpanded}
           onPress={() => setDinnerExpanded(!dinnerExpanded)}
         >
-          <List.Item title="Spaghetti Bolognese" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Тойгны шөл " /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Veal Cutlet with Chicken Mushroom Rotini" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Өндөгтэй хуурга" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Steak Frites" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Багц цуйван" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
         </List.Accordion>
         <Divider />
 
         <List.Accordion
-          title="Drinks"
+          title="Уух зүйл"
           left={(props) => <List.Icon {...props} icon="cup" />}
           expanded={drinksExpanded}
           onPress={() => setDrinksExpanded(!drinksExpanded)}
         >
-          <List.Item title="Coffee" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Сүүтэй цай" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Tea" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Хар цай" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Modelo" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Үзэмний шүүс" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Coke" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Кола" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
           <Divider />
-          <List.Item title="Fanta" />
+          <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 0.8 }}><List.Item title="Кофе" /></View>
+            <Text style={styles.styletext}>Тоо:</Text>
+            <TextInput style={styles.styleinp}>0</TextInput>
+          </View>
         </List.Accordion>
       </ScrollView>
       <Spacer position="bottom" size="large">
@@ -87,9 +143,18 @@ export const RestaurantDetailScreen = ({ navigation, route }) => {
             navigation.navigate("Checkout");
           }}
         >
-          Order Special Only 12.99!
+          Захиалах
         </OrderButton>
       </Spacer>
     </SafeArea>
   );
 };
+
+const styles = StyleSheet.create({
+  styletext: {
+    flex: 0.2, alignItems: 'center', textAlign: 'center', marginTop: 15
+  },
+  styleinp: {
+    marginBottom: 10, marginTop: 10, borderRadius: 30, borderWidth: 2, borderColor: "#9b19e6", color: "#9b19e6", flex: 0.2, alignItems: 'center', textAlign: 'center', fontSize: 18
+  },
+});

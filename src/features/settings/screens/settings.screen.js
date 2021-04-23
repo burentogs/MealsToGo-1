@@ -46,8 +46,8 @@ export const SettingsScreen = ({ navigation }) => {
 
         <List.Section>
           <SettingsItem
-            title="Favourites"
-            description="View your favourites"
+            title="Таалагдсан"
+            description="Жагсаалт харах"
             left={(props) => (
               <List.Icon {...props} color={colors.ui.error} icon="heart" />
             )}
@@ -55,7 +55,7 @@ export const SettingsScreen = ({ navigation }) => {
           />
           <Spacer />
           <SettingsItem
-            title="Payment"
+            title="Төлөлт"
             left={(props) => (
               <List.Icon {...props} color={colors.ui.secondary} icon="cart" />
             )}
@@ -63,7 +63,7 @@ export const SettingsScreen = ({ navigation }) => {
           />
           <Spacer />
           <SettingsItem
-            title="Past Orders"
+            title="Өмнөх захиалгууд"
             left={(props) => (
               <List.Icon
                 {...props}
@@ -75,7 +75,7 @@ export const SettingsScreen = ({ navigation }) => {
           />
           <Spacer />
           <SettingsItem
-            title="Logout"
+            title="Гарах"
             left={(props) => (
               <List.Icon {...props} color={colors.ui.secondary} icon="door" />
             )}

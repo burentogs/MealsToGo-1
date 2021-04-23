@@ -67,7 +67,7 @@ export const CheckoutScreen = ({ navigation }) => {
       <ScrollView>
         <Spacer position="left" size="medium">
           <Spacer position="top" size="large">
-            <Text>Your Order</Text>
+            <Text>Захиалгын мэдээлэл</Text>
           </Spacer>
           <List.Section>
             {cart.map(({ item, price }, i) => {
@@ -79,7 +79,7 @@ export const CheckoutScreen = ({ navigation }) => {
               );
             })}
           </List.Section>
-          <Text>Total: {sum / 100}</Text>
+          <Text>Нийт: {sum / 100}</Text>
         </Spacer>
         <Spacer position="top" size="large" />
         <Divider />
@@ -111,7 +111,7 @@ export const CheckoutScreen = ({ navigation }) => {
           mode="contained"
           onPress={onPay}
         >
-          Pay
+          Захиалга баталгаажуулах
         </PayButton>
         <Spacer position="top" size="large">
           <ClearButton

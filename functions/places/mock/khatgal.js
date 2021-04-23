@@ -6,8 +6,8 @@ module.exports = {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77361,
-          lng: -122.421622,
+          lat: 50.4332371,
+          lng: 100.1561226,
         },
         viewport: {
           northeast: {
@@ -22,7 +22,7 @@ module.exports = {
       },
       ix:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Zuni Café",
+      name: "Modern Nomads",
       opening_hours: {
         open_now: true,
       },
@@ -52,14 +52,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1675,
-      vicinity: "1658 Market Street, San Francisco",
+      vicinity: "2 gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7829132,
-          lng: -122.4188995,
+          lat: 50.4348137,
+          lng: 100.1596185,
         },
         viewport: {
           northeast: {
@@ -74,7 +74,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Brenda's French Soul Food",
+      name: "Gerelt Suvd Cafe",
       opening_hours: {
         open_now: true,
       },
@@ -97,14 +97,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 4404,
-      vicinity: "652 Polk Street, San Francisco",
+      vicinity: "11 gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7710938,
-          lng: -122.4126502,
+          lat: 50.4379074,
+          lng: 100.1642962,
         },
         viewport: {
           northeast: {
@@ -119,7 +119,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-      name: "DNA Lounge",
+      name: "Сарнай Кафе",
       opening_hours: {
         open_now: false,
       },
@@ -150,14 +150,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1284,
-      vicinity: "375 11th Street, San Francisco",
+      vicinity: "11th gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77710419999999,
-          lng: -122.4227403,
+          lat: 50.433331,
+          lng: 100.159218,
         },
         viewport: {
           northeast: {
@@ -172,7 +172,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Absinthe Brasserie & Bar",
+      name: "Сувдан эрэг",
       opening_hours: {
         open_now: false,
       },
@@ -201,14 +201,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1405,
-      vicinity: "398 Hayes Street, San Francisco",
+      vicinity: "398 Hayes gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77219169999999,
-          lng: -122.4306187,
+          lat: 50.435946,
+          lng: 100.155481,
         },
         viewport: {
           northeast: {
@@ -223,7 +223,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "YH - BEIJING",
+      name: "New Roots Coffee",
       opening_hours: {
         open_now: true,
       },
@@ -246,14 +246,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 191,
-      vicinity: "500 Haight Street, San Francisco",
+      vicinity: "500 Haight gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77002299999999,
-          lng: -122.4221172,
+          lat: 50.4362845,
+          lng: 100.1581932,
         },
         viewport: {
           northeast: {
@@ -268,7 +268,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Zeitgeist",
+      name: "Хасаг",
       opening_hours: {
         open_now: false,
       },
@@ -297,14 +297,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2488,
-      vicinity: "199 Valencia Street, San Francisco",
+      vicinity: "199 Valencia gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7648313,
-          lng: -122.4211374,
+          lat: 50.435929,
+          lng: 100.1612011,
         },
         viewport: {
           northeast: {
@@ -319,7 +319,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Pancho Villa Taqueria",
+      name: "Хатгал VIP",
       opening_hours: {
         open_now: true,
       },
@@ -342,14 +342,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 2921,
-      vicinity: "3071 16th Street, San Francisco",
+      vicinity: "3071 16th gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7647206,
-          lng: -122.422986,
+          lat: 50.4330587,
+          lng: 100.1615231,
         },
         viewport: {
           northeast: {
@@ -364,7 +364,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "The Monk's Kettle",
+      name: "Жаргалан",
       opening_hours: {
         open_now: false,
       },
@@ -393,14 +393,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1392,
-      vicinity: "3141 16th Street, San Francisco",
+      vicinity: "3141 16th gudamj, Khatgal",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 37.7715178,
-          lng: -122.412761,
+          lat: 50.4313059,
+          lng: 100.1572021,
         },
         viewport: {
           northeast: {
@@ -415,7 +415,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-      name: "Bar Agricole",
+      name: "Хүч зоогийн газар",
       permanently_closed: true,
       photos: [
         {
@@ -442,14 +442,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 490,
-      vicinity: "355 11th Street, San Francisco",
+      vicinity: "355 11th gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.769775,
-          lng: -122.4120333,
+          lat: 50.4482148,
+          lng: 100.1757978,
         },
         viewport: {
           northeast: {
@@ -464,7 +464,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "SoMa StrEat Food Park",
+      name: "Өсөн дэвших",
       opening_hours: {
         open_now: true,
       },
@@ -494,14 +494,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1644,
-      vicinity: "428 11th Street, San Francisco",
+      vicinity: "428 11th gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77631340000001,
-          lng: -122.4264188,
+          lat: 50.4441084,
+          lng: 100.1730126,
         },
         viewport: {
           northeast: {
@@ -516,7 +516,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Suppenküche",
+      name: "Blue Pearl",
       opening_hours: {
         open_now: false,
       },
@@ -539,14 +539,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 1344,
-      vicinity: "525 Laguna Street, San Francisco",
+      vicinity: "525 Laguna gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77847149999999,
-          lng: -122.4121645,
+          lat: 50.437208,
+          lng: 100.1710075,
         },
         viewport: {
           northeast: {
@@ -561,7 +561,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
-      name: "City Beer Store",
+      name: "Benee Cafe",
       opening_hours: {
         open_now: false,
       },
@@ -592,14 +592,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 977,
-      vicinity: "1148 Mission Street, San Francisco",
+      vicinity: "1148 Mission gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.785519,
-          lng: -122.421811,
+          lat: 50.4296998,
+          lng: 100.152825,
         },
         viewport: {
           northeast: {
@@ -614,7 +614,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Tommy's Joynt",
+      name: "Tommy's pub",
       opening_hours: {
         open_now: false,
       },
@@ -643,14 +643,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 3184,
-      vicinity: "1101 Geary Boulevard, San Francisco",
+      vicinity: "1101 Geary Boulevard, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7644599,
-          lng: -122.4220487,
+          lat: 50.4362571,
+          lng: 100.1565803,
         },
         viewport: {
           northeast: {
@@ -665,7 +665,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Limón Rotisserie",
+      name: "Мишээл",
       opening_hours: {
         open_now: false,
       },
@@ -688,14 +688,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 1399,
-      vicinity: "524 Valencia Street, San Francisco",
+      vicinity: "524 Valencia gudamj, Khatgal",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 37.7771677,
-          lng: -122.4218207,
+          lat: 50.4445076,
+          lng: 100.1623019,
         },
         viewport: {
           northeast: {
@@ -710,7 +710,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Hayes Street Grill",
+      name: "Намуун",
       permanently_closed: true,
       photos: [
         {
@@ -737,14 +737,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 214,
-      vicinity: "320 Hayes Street, San Francisco",
+      vicinity: "320 Hayes gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7735005,
-          lng: -122.4217368,
+          lat: 50.4480467,
+          lng: 100.1668333,
         },
         viewport: {
           northeast: {
@@ -759,7 +759,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-      name: "Pause Wine Bar in Hayes Valley",
+      name: "Гангирс",
       opening_hours: {
         open_now: false,
       },
@@ -788,14 +788,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 82,
-      vicinity: "1666 Market Street, San Francisco",
+      vicinity: "1666 2 gudamj, Khatgal",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 37.775043,
-          lng: -122.412832,
+          lat: 50.4500746,
+          lng: 100.1706433,
         },
         viewport: {
           northeast: {
@@ -810,7 +810,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "AsiaSF",
+      name: "Ариундалай",
       permanently_closed: true,
       photos: [
         {
@@ -838,14 +838,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 457,
-      vicinity: "201 9th Street, San Francisco",
+      vicinity: "201 9th gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.7861185,
-          lng: -122.4115102,
+          lat: 50.4523685,
+          lng: 100.1707412,
         },
         viewport: {
           northeast: {
@@ -860,7 +860,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Jasper's Corner Tap and Kitchen",
+      name: "Buyka's Kitchen",
       opening_hours: {
         open_now: true,
       },
@@ -889,14 +889,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 549,
-      vicinity: "401 Taylor Street, San Francisco",
+      vicinity: "401 Taylor gudamj, Khatgal",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 37.7839584,
-          lng: -122.40905,
+          lat: 50.4536734,
+          lng: 100.1719148,
         },
         viewport: {
           northeast: {
@@ -911,7 +911,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-      name: "Mikkeller Bar",
+      name: "Pearl Harbour",
       permanently_closed: true,
       photos: [
         {
@@ -938,14 +938,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2630,
-      vicinity: "34 Mason Street, San Francisco",
+      vicinity: "34 Mason gudamj, Khatgal",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 37.77653919999999,
-          lng: -122.4249244,
+          lat: 50.4339434,
+          lng: 100.1594669,
         },
         viewport: {
           northeast: {
@@ -960,7 +960,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Patxi's Pizza",
+      name: "Eegii's Pizza",
       opening_hours: {
         open_now: true,
       },
@@ -983,7 +983,7 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 861,
-      vicinity: "511 Hayes Street, San Francisco",
+      vicinity: "511 Hayes gudamj, Khatgal",
     },
   ],
   status: "OK",

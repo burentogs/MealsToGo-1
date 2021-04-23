@@ -6,8 +6,8 @@ module.exports = {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.886065,
-          lng: -87.6208832,
+          lat: 49.6504711,
+          lng: 92.6298149,
         },
         viewport: {
           northeast: {
@@ -22,7 +22,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-      name: "Fairmont Chicago - Millennium Park",
+      name: "Хөх толгой, Uvs",
       opening_hours: {
         open_now: true,
       },
@@ -51,14 +51,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2085,
-      vicinity: "200 North Columbus Drive, Chicago",
+      vicinity: "Наранбулаг-Наран-2",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.888868,
-          lng: -87.626394,
+          lat: 49.7149277,
+          lng: 93.1295519,
         },
         viewport: {
           northeast: {
@@ -73,7 +73,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-      name: "Trump International Hotel & Tower® Chicago",
+      name: "Баясгалан зоогын газар",
       opening_hours: {
         open_now: true,
       },
@@ -104,14 +104,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2624,
-      vicinity: "401 North Wabash Avenue, Chicago",
+      vicinity: "Цалгар аймаг цэцэхүй",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8870687,
-          lng: -87.61948509999999,
+          lat: 49.9981522,
+          lng: 91.9814633,
         },
         viewport: {
           northeast: {
@@ -126,7 +126,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-      name: "Swissotel Chicago",
+      name: "Дөл - Cafe",
       opening_hours: {
         open_now: true,
       },
@@ -154,14 +154,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 4059,
-      vicinity: "323 East Wacker Drive, Chicago",
+      vicinity: "Улаангом-2-баг",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.87156110000001,
-          lng: -87.62728609999999,
+          lat: 50.1271036,
+          lng: 91.6270747,
         },
         viewport: {
           northeast: {
@@ -176,7 +176,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Lou Malnati's Pizzeria",
+      name: "Сүмбэр",
       opening_hours: {
         open_now: true,
       },
@@ -206,14 +206,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 6103,
-      vicinity: "805 South State Street, Chicago",
+      vicinity: "Түргэн-голт",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.88907469999999,
-          lng: -87.62988229999999,
+          lat: 49.9611351,
+          lng: 92.6605515,
         },
         viewport: {
           northeast: {
@@ -228,7 +228,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Siena Tavern",
+      name: "Нуурт",
       opening_hours: {
         open_now: true,
       },
@@ -257,14 +257,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1906,
-      vicinity: "51 West Kinzie Street, Chicago",
+      vicinity: "Увс нуур - урд",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8846222,
-          lng: -87.6297111,
+          lat: 49.9881304,
+          lng: 92.0903323,
         },
         viewport: {
           northeast: {
@@ -279,7 +279,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Petterino's",
+      name: "NewPapa",
       opening_hours: {
         open_now: true,
       },
@@ -308,14 +308,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1255,
-      vicinity: "150 North Dearborn Street, Chicago",
+      vicinity: "Улаангом - 13 - 4",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.87801039999999,
-          lng: -87.63489799999999,
+          lat: 49.9942656,
+          lng: 92.0817036,
         },
         viewport: {
           northeast: {
@@ -330,7 +330,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Giordano's",
+      name: "Гангир",
       opening_hours: {
         open_now: true,
       },
@@ -359,14 +359,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 6816,
-      vicinity: "223 West Jackson Boulevard, Chicago",
+      vicinity: "Улаангом - сэрээт - 2",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8813268,
-          lng: -87.6246925,
+          lat: 49.9748389,
+          lng: 92.0525618,
         },
         viewport: {
           northeast: {
@@ -381,7 +381,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "The Gage",
+      name: "Schatz",
       opening_hours: {
         open_now: true,
       },
@@ -410,14 +410,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2771,
-      vicinity: "24 South Michigan Avenue, Chicago",
+      vicinity: "Улаангом - 12 - Сэрт",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.86886419999999,
-          lng: -87.62456600000002,
+          lat: 49.9735399,
+          lng: 92.0708541,
         },
         viewport: {
           northeast: {
@@ -432,7 +432,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Yolk - South Loop",
+      name: "Нуурын хотгор",
       opening_hours: {
         open_now: true,
       },
@@ -462,14 +462,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 3098,
-      vicinity: "1120 South Michigan Avenue, Chicago",
+      vicinity: "Улаангом - 6 - 8",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 41.885236,
-          lng: -87.631823,
+          lat: 49.9790388,
+          lng: 92.1002102,
         },
         viewport: {
           northeast: {
@@ -504,14 +504,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 113,
-      vicinity: "THOMPSON CENTER, 100 West Randolph Street, Chicago",
+      vicinity: "Улаангом",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8847209,
-          lng: -87.6228606,
+          lat: 50.0170721,
+          lng: 92.0235678,
         },
         viewport: {
           northeast: {
@@ -526,7 +526,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-      name: "Wildberry Pancakes & Cafe",
+      name: "Цэлгэр Pancakes & Cafe",
       opening_hours: {
         open_now: true,
       },
@@ -555,14 +555,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 5639,
-      vicinity: "130 East Randolph Street, Chicago",
+      vicinity: "Улаангом 15 - 2",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 41.87925200000001,
-          lng: -87.628406,
+          lat: 50.0072156,
+          lng: 92.0678557,
         },
         viewport: {
           northeast: {
@@ -577,7 +577,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "The Berghoff Restaurant",
+      name: "Мандах",
       permanently_closed: true,
       photos: [
         {
@@ -598,14 +598,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 3042,
-      vicinity: "17 West Adams Street, Chicago",
+      vicinity: "Улаангом - 22 - 3",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8779176,
-          lng: -87.6421428,
+          lat: 50.0055944,
+          lng: 92.0414848,
         },
         viewport: {
           northeast: {
@@ -620,7 +620,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Lou Mitchell's",
+      name: "Сэрээтэр",
       opening_hours: {
         open_now: true,
       },
@@ -643,14 +643,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 2329,
-      vicinity: "565 West Jackson Boulevard, Chicago",
+      vicinity: "Улаангом - 5 - 4",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 41.8804843,
-          lng: -87.6377693,
+          lat: 50.6102887,
+          lng: 92.4028391,
         },
         viewport: {
           northeast: {
@@ -665,7 +665,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "South Branch Tavern and Grille",
+      name: "Давст",
       permanently_closed: true,
       photos: [
         {
@@ -692,14 +692,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1078,
-      vicinity: "100 South Wacker Drive, Chicago",
+      vicinity: "Давст",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 41.8864683,
-          lng: -87.62409380000001,
+          lat: 49.0354509,
+          lng: 92.0382654,
         },
         viewport: {
           northeast: {
@@ -714,7 +714,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Sweetwater Tavern and Grille",
+      name: "Өлгий",
       permanently_closed: true,
       photos: [
         {
@@ -741,14 +741,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2203,
-      vicinity: "225 Michigan Avenue, Chicago",
+      vicinity: "Өлгий 1 - 24",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8730121,
-          lng: -87.6261784,
+          lat: 49.3296696,
+          lng: 93.1575194,
         },
         viewport: {
           northeast: {
@@ -763,7 +763,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-      name: "Buddy Guy's Legends",
+      name: "Хар тэрмэс",
       photos: [
         {
           height: 2048,
@@ -790,14 +790,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 2118,
-      vicinity: "700 South Wabash Avenue, Chicago",
+      vicinity: "Увс аймаг хяргас нуур",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.89052059999999,
-          lng: -87.6308469,
+          lat: 49.4066328,
+          lng: 94.2499626,
         },
         viewport: {
           northeast: {
@@ -812,7 +812,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Frontera Grill",
+      name: "Цагаан хайрхан",
       opening_hours: {
         open_now: true,
       },
@@ -835,14 +835,14 @@ module.exports = {
       scope: "",
       types: ["restaurant", "food", "point_of_interest", "establishment"],
       user_ratings_total: 2064,
-      vicinity: "445 North Clark Street, Chicago",
+      vicinity: "Цагаан хайрхан - 2",
     },
     {
       business_status: "CLOSED_TEMPORARILY",
       geometry: {
         location: {
-          lat: 41.88231769999999,
-          lng: -87.63612839999999,
+          lat: 50.1498421,
+          lng: 90.8569866,
         },
         viewport: {
           northeast: {
@@ -857,7 +857,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "One North Kitchen & Bar",
+      name: "Үүргийн эрэгт",
       permanently_closed: true,
       photos: [
         {
@@ -884,14 +884,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 322,
-      vicinity: "1 North Upper Wacker Drive, Chicago",
+      vicinity: "Увс - үүрэг нуур",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.88433,
-          lng: -87.632809,
+          lat: 50.3382359,
+          lng: 91.6081592,
         },
         viewport: {
           northeast: {
@@ -906,7 +906,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "312 Chicago",
+      name: "Сагилт-1",
       opening_hours: {
         open_now: true,
       },
@@ -935,14 +935,14 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 810,
-      vicinity: "136 North LaSalle Street, Chicago",
+      vicinity: "Увс - Сагил сум",
     },
     {
       business_status: "OPERATIONAL",
       geometry: {
         location: {
-          lat: 41.8880993,
-          lng: -87.6327417,
+          lat: 48.820581,
+          lng: 93.109624,
         },
         viewport: {
           northeast: {
@@ -957,7 +957,7 @@ module.exports = {
       },
       icon:
         "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-      name: "Chicago Cut Steakhouse",
+      name: "Гэрэлт-од",
       opening_hours: {
         open_now: true,
       },
@@ -986,7 +986,7 @@ module.exports = {
         "establishment",
       ],
       user_ratings_total: 1860,
-      vicinity: "300 North LaSalle Drive, Chicago",
+      vicinity: "Увс - завхан сум",
     },
   ],
   status: "OK",

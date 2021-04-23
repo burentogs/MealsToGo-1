@@ -21,11 +21,11 @@ module.exports.locations = {
       },
     ],
   },
-  "san francisco": {
+  khatgal: {
     results: [
       {
         geometry: {
-          location: { lat: 37.7749295, lng: -122.4194155 },
+          location: { lat: 50.43859, lng: 100.1614523 },
           viewport: {
             northeast: { lat: 37.812, lng: -122.3482 },
             southwest: { lat: 37.70339999999999, lng: -122.527 },
@@ -35,13 +35,13 @@ module.exports.locations = {
     ],
     status: "OK",
   },
-  chicago: {
+  uvs: {
     results: [
       {
         geometry: {
           location: {
-            lng: -87.629799,
-            lat: 41.878113,
+            lng: 92.6298149,
+            lat: 49.6504711,
           },
           viewport: {
             northeast: {

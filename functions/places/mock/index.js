@@ -1,13 +1,13 @@
 const antwerp = require("./antwerp");
-const chicago = require("./chicago");
+const uvs = require("./uvs");
 const toronto = require("./toronto");
-const san_francisco = require("./san_francisco");
+const khatgal = require("./khatgal");
 
 module.exports.mocks = {
   "51.219448,4.402464": antwerp,
   "43.653225,-79.383186": toronto,
-  "41.878113,-87.629799": chicago,
-  "37.7749295,-122.4194155": san_francisco,
+  "49.6504711,92.6298149": uvs,
+  "50.43859,100.1614523": khatgal,
 };
 
 const mockImages = [

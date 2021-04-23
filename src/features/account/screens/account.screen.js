@@ -24,14 +24,14 @@ export const AccountScreen = ({ navigation }) => {
           source={require("../../../../assets/watermelon.json")}
         />
       </AnimationWrapper>
-      <Title>Meals To Go</Title>
+      <Title>OnFood</Title>
       <AccountContainer>
         <AuthButton
           icon="lock-open-outline"
           mode="contained"
           onPress={() => navigation.navigate("Login")}
         >
-          Login
+          Нэвтрэх
         </AuthButton>
         <Spacer size="large">
           <AuthButton
@@ -39,7 +39,7 @@ export const AccountScreen = ({ navigation }) => {
             mode="contained"
             onPress={() => navigation.navigate("Register")}
           >
-            Register
+            Бүртгүүлэх
           </AuthButton>
         </Spacer>
       </AccountContainer>

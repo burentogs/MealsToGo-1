@@ -1,4 +1,5 @@
 module.exports.payRequest = (request, response, stripeClient) => {
+
   const body = JSON.parse(request.body);
   const { token, amount } = body;
   stripeClient.paymentIntents
@@ -15,7 +16,7 @@ module.exports.payRequest = (request, response, stripeClient) => {
       confirm: true,
     })
     .then((paymentIntent) => {
-      response.json(paymentIntent);
+      response.JSON(paymentIntent);
     })
     .catch((e) => {
       console.log(e);
