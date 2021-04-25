@@ -8,7 +8,7 @@ const stripe = createStripe(
 export const cardTokenRequest = (card) => stripe.createToken({ card });
 
 export const payRequest = (token, amount, name) => {
-  return fetch(`http://localhost:5001/onfood-onfood/us-central1/pay`, {
+  return fetch(`https://us-central1-onfood-onfood.cloudfunctions.net/pay`, {
     body: JSON.stringify({
       token,
       name,
@@ -17,7 +17,7 @@ export const payRequest = (token, amount, name) => {
     method: "POST",
   }).then((res) => {
     if (res.status > 200) {
-      return Promise.reject("something went wrong processing your payment");
+      return Promise.reject("something went wrong processing your paymen");
     }
     return res.json();
   });

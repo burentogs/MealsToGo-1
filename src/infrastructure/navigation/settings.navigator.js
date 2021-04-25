@@ -1,6 +1,8 @@
 import React from "react";
 import { SettingsScreen } from "../../features/settings/screens/settings.screen";
 import { FavouritesScreen } from "../../features/settings/screens/favourites.screen";
+import { OrderHistoryScreen } from "../../features/settings/screens/order.history.screen";
+import { PaymentScreen } from "../../features/settings/screens/payment.screen";
 
 import {
   createStackNavigator,
@@ -24,7 +26,9 @@ export const SettingsNavigator = ({ route, navigation }) => {
         name="Settings"
         component={SettingsScreen}
       />
-      <SettingsStack.Screen name="Favourites" component={FavouritesScreen} />
+      <SettingsStack.Screen name="Таалагдсан" component={FavouritesScreen} />
+      <SettingsStack.Screen name="Өмнөх захиалгууд" component={OrderHistoryScreen} />
+      <SettingsStack.Screen name="Төлөлтийн түүх" component={PaymentScreen} />
     </SettingsStack.Navigator>
   );
 };

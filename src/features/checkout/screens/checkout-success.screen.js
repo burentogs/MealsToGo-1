@@ -8,7 +8,7 @@ export const CheckoutSuccessScreen = () => (
   <SafeArea>
     <CartIconContainer>
       <CartIcon icon="check-bold" />
-      <Text variant="label">Success!</Text>
+      <Text variant="label">Амжилттай төлөгдлөө!</Text>
     </CartIconContainer>
   </SafeArea>
 );

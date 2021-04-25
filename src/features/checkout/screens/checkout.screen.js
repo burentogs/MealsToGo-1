@@ -32,7 +32,7 @@ export const CheckoutScreen = ({ navigation }) => {
     if (!card || !card.id) {
       setIsLoading(false);
       navigation.navigate("CheckoutError", {
-        error: "Please fill in a valid credit card",
+        error: "Картны мэдээллээ оруулна уу",
       });
       return;
     }
@@ -55,7 +55,7 @@ export const CheckoutScreen = ({ navigation }) => {
       <SafeArea>
         <CartIconContainer>
           <CartIcon icon="cart-off" />
-          <Text>Your cart is empty!</Text>
+          <Text>Захиалга нэмэгдээгүй байна!</Text>
         </CartIconContainer>
       </SafeArea>
     );
@@ -74,12 +74,12 @@ export const CheckoutScreen = ({ navigation }) => {
               return (
                 <List.Item
                   key={`item-${i}`}
-                  title={`${item} - ${price / 100}`}
+                  title={`${item} - ${price}`}
                 />
               );
             })}
           </List.Section>
-          <Text>Нийт: {sum / 100}</Text>
+          <Text>Нийт: {sum}</Text>
         </Spacer>
         <Spacer position="top" size="large" />
         <Divider />
@@ -120,7 +120,7 @@ export const CheckoutScreen = ({ navigation }) => {
             mode="contained"
             onPress={clearCart}
           >
-            Clear Cart
+            Захиалга цуцлах
           </ClearButton>
         </Spacer>
       </ScrollView>

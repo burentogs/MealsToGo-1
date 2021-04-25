@@ -51,7 +51,7 @@ export const SettingsScreen = ({ navigation }) => {
             left={(props) => (
               <List.Icon {...props} color={colors.ui.error} icon="heart" />
             )}
-            onPress={() => navigation.navigate("Favourites")}
+            onPress={() => navigation.navigate("Таалагдсан")}
           />
           <Spacer />
           <SettingsItem
@@ -59,7 +59,7 @@ export const SettingsScreen = ({ navigation }) => {
             left={(props) => (
               <List.Icon {...props} color={colors.ui.secondary} icon="cart" />
             )}
-            onPress={() => null}
+            onPress={() => navigation.navigate("Төлөлтийн түүх")}
           />
           <Spacer />
           <SettingsItem
@@ -71,7 +71,7 @@ export const SettingsScreen = ({ navigation }) => {
                 icon="history"
               />
             )}
-            onPress={() => null}
+            onPress={() => navigation.navigate("Өмнөх захиалгууд")}
           />
           <Spacer />
           <SettingsItem

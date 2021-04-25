@@ -66,7 +66,6 @@ export const CartContextProvider = ({ children }) => {
       setCart([...cart, item]);
     }
   };
-
   const clear = () => {
     setCart([]);
     setRestaurant(null);
