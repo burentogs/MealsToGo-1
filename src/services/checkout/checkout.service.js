@@ -14,10 +14,16 @@ export const payRequest = (token, amount, name) => {
       name,
       amount,
     }),
+
     method: "POST",
   }).then((res) => {
     if (res.status > 200) {
-      return Promise.reject("something went wrong processing your paymen");
+      console.log(res.status.toString());
+      console.log(token.toString());
+      console.log(name.toString());
+      console.log(amount.toString());
+
+      return Promise.reject("Амжилттай төлөгдлөө!");
     }
     return res.json();
   });

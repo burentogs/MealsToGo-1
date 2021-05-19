@@ -9,7 +9,6 @@ import { SafeArea } from "../../../components/utility/safe-area.component";
 import { CartContext } from "../../../services/cart/cart.context";
 
 import { CreditCardInput } from "../components/credit-card.component";
-
 import {
   CartIconContainer,
   CartIcon,
@@ -22,6 +21,7 @@ import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info
 import { payRequest } from "../../../services/checkout/checkout.service";
 
 export const CheckoutScreen = ({ navigation }) => {
+
   const { cart, restaurant, clearCart, sum } = useContext(CartContext);
   const [name, setName] = useState("");
   const [card, setCard] = useState(null);
@@ -32,7 +32,7 @@ export const CheckoutScreen = ({ navigation }) => {
     if (!card || !card.id) {
       setIsLoading(false);
       navigation.navigate("CheckoutError", {
-        error: "Картны мэдээллээ оруулна уу",
+        error: "Картны мэдээллээ оруулна уу!",
       });
       return;
     }

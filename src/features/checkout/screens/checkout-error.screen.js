@@ -1,5 +1,6 @@
 import React from "react";
-
+import { color } from "react-native-reanimated";
+import { StyleSheet, View } from 'react-native';
 import { Text } from "../../../components/typography/text.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
 import { colors } from "../../../infrastructure/theme/colors";
@@ -10,9 +11,22 @@ export const CheckoutErrorScreen = ({ route }) => {
   return (
     <SafeArea>
       <CartIconContainer>
-        <CartIcon icon="close" bg={colors.ui.error} />
-        <Text variant="label">{error}</Text>
+        <Text style={styles.red} variant="label">{error}</Text>
       </CartIconContainer>
     </SafeArea>
   );
 };
+const styles = StyleSheet.create({
+  container: {
+    marginTop: 50,
+  },
+  bigBlue: {
+    color: 'blue',
+    fontWeight: 'bold',
+    fontSize: 30,
+  },
+  red: {
+    color: 'white',
+    width: 260, height: 50, backgroundColor: '#696ac3', textAlign: 'center', padding: 15, borderRadius: 20
+  },
+});

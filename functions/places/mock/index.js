@@ -11,13 +11,13 @@ module.exports.mocks = {
 };
 
 const mockImages = [
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-oranges-ice-600x750.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2020/08/detail-of-pavlova-strawberry-piece-of-cake-600x800.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-baking-600x750.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-pancakes-600x750.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table-600x400.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/02/pizza-ready-for-baking-600x400.jpg",
+  "https://ihotel.mn/img/uploads/hotels/ec0edaca099c9372cffe04eff754374e.jpg",
+  "https://ihotel.mn/img/uploads/hotels/919704d89ffa15b72bc76026fada2a1b.jpg",
+  "https://ihotel.mn/img/uploads/hotels/a4d3bbaadbb0a60594239251ca9a842f.jpg",
+  "https://ihotel.mn/img/uploads/hotels/f50172bbf6918a3d19fa67028ac2c34a.jpg",
+  "https://lh5.googleusercontent.com/p/AF1QipOJmhZNgx4BKhpvmBk3RkJJYu9x32bDqMrBKJW1=w426-h240-k-no",
+  "https://ihotel.mn/img/uploads/hotels/550bf3e24c2087279d7c205157e66e89.png",
+  "https://m.buro247.mn/images/toilogt_album.jpg",
 ];
 
 module.exports.addMockImage = (restaurant) => {
